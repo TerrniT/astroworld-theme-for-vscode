@@ -1,0 +1,35 @@
+{
+    "name": "astroworld-coder-dark",
+    "displayName": "Astroworld Coder Dark",
+    "description": "Astroworld theme !",
+    "version": "0.0.1",
+    "publisher": "t4rrnit",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TerrniT/astroworld-theme-for-vscode.git"
+    },
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "keywords": [
+        "astro",
+        "astroworld",
+        "travis",
+        "travis scott",
+        "festival",
+        "yellow theme"
+
+    ],
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Astroworld Coder Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Astroworld Coder Dark-color-theme.json"
+            }
+        ]
+    }
+}
